@@ -1,0 +1,59 @@
+.bg-container {
+  background-color: #93c5fd;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.country-capital-container {
+  background-color: #f8fafc;
+  background-size: cover;
+  border-radius: 12px;
+  padding: 55px;
+}
+.heading {
+  color: #000000;
+  font-size: 32px;
+  font-family: 'Roboto';
+}
+.option-design {
+  outline: none;
+  font-size: 17px;
+  padding: 8px;
+}
+.my-options {
+  color: #000000;
+}
+.question {
+  color: #1e293b;
+  font-size: 22px;
+  margin-left: 3px;
+  font-weight: 400;
+}
+.country {
+  color: #000000;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 26px;
+  }
+  .option-design {
+    font-size: 15px;
+  }
+  .question {
+    font-size: 20px;
+  }
+  .country {
+    font-size: 20px;
+  }
+  .country-capital-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 90%;
+  }
+}
